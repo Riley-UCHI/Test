@@ -3,7 +3,9 @@
 # Greeting fonction
 def greet():
 	name = str(input('Enter your name : '))
-	return f'Hello {name}'
+	age = str(input('Enter your age : '))
+	print("Hi, how old are you ?")
+	return f"My name is {name} and I'm {age} years old"
 
 x = greet()
 print(x)
